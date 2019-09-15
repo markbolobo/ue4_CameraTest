@@ -6284,3 +6284,226 @@ Script Stack (0 frames):
 [2019.09.15-17.56.58:789][723]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/WB_CameraTest_SystemControllerF6CD101043C3838879CBB5BFA335A22A.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_SystemController.uasset'
 [2019.09.15-18.11.26:031][836]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
 [2019.09.15-18.11.27:702][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.09.15-18.14.37:474][283]BlueprintLog: New page: Compile BP_CameraTest_PlayerController
+[2019.09.15-18.14.37:739][283]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.09.15-18.14.38:567][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CameraTest_PlayerController" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_PlayerController.uasset" SILENT=true
+[2019.09.15-18.14.38:699][326]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_PlayerController20AAD22F4E3C3AB09804A78F15A8C04E.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_PlayerController.uasset'
+[2019.09.15-18.16.21:654][460]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.15-18.16.21:693][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.16.21:693][460]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.09.15-18.16.21:726][460]LogPlayLevel: [PlayLevel] Compiling WB_CameraTest_CameraStabilization before play...
+[2019.09.15-18.16.22:010][460]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2019.09.15-18.16.22:011][460]LogPlayLevel: PlayLevel: Blueprint regeneration took 316 ms (1 blueprints)
+[2019.09.15-18.16.22:011][460]PIE: New page: PIE session: CameraTest (2019年9月16日 上午10:16:22)
+[2019.09.15-18.16.22:011][460]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CameraTest
+[2019.09.15-18.16.22:013][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002520s)
+[2019.09.15-18.16.22:014][460]LogAIModule: Creating AISystem for world CameraTest
+[2019.09.15-18.16.22:014][460]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2019.09.15-18.16.22:014][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CameraTest.CameraTest to /Game/Maps/UEDPIE_0_CameraTest.CameraTest (0.003325s)
+[2019.09.15-18.16.22:058][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.09.15-18.16.22:061][460]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2019.09.15-18.16.22:065][460]LogInit: FAudioDevice initialized.
+[2019.09.15-18.16.22:078][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.15-18.16.22:114][460]LogLoad: Game class is 'BP_CameraTest_GameMode_C'
+[2019.09.15-18.16.22:115][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CameraTest.CameraTest up for play (max tick rate 60) at 2019.09.16-02.16.22
+[2019.09.15-18.16.22:116][460]LogWorld: Bringing up level for play took: 0.000788
+[2019.09.15-18.16.22:128][460]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.09.15-18.16.22:129][460]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.09.15-18.16.22:140][460]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CameraTest -0.528
+[2019.09.15-18.16.22:140][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.16.28:492][837]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.16.33:721][184]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.16.34:484][245]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.16.34:547][250]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.16.36:525][404]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.16.36:539][405]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.16.38:088][521]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.16.39:006][589]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.16.39:086][595]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.16.40:492][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.16.40:494][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.15-18.16.40:514][699]LogSlate: Window 'CameraTest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.15-18.16.40:552][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.15-18.16.40:552][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.16.40:619][699]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.09.15-18.16.40:653][700]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2019.09.15-18.16.43:685][984]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.15-18.16.43:727][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.16.43:727][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.15-18.16.43:727][984]PIE: New page: PIE session: CameraTest (2019年9月16日 上午10:16:43)
+[2019.09.15-18.16.43:727][984]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CameraTest
+[2019.09.15-18.16.43:731][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003202s)
+[2019.09.15-18.16.43:731][984]LogAIModule: Creating AISystem for world CameraTest
+[2019.09.15-18.16.43:731][984]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2019.09.15-18.16.43:732][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CameraTest.CameraTest to /Game/Maps/UEDPIE_0_CameraTest.CameraTest (0.004018s)
+[2019.09.15-18.16.43:788][984]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.09.15-18.16.43:792][984]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2019.09.15-18.16.43:796][984]LogInit: FAudioDevice initialized.
+[2019.09.15-18.16.43:810][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.15-18.16.43:838][984]LogLoad: Game class is 'BP_CameraTest_GameMode_C'
+[2019.09.15-18.16.43:840][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CameraTest.CameraTest up for play (max tick rate 0) at 2019.09.16-02.16.43
+[2019.09.15-18.16.43:840][984]LogWorld: Bringing up level for play took: 0.000855
+[2019.09.15-18.16.43:852][984]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.09.15-18.16.43:852][984]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.09.15-18.16.43:869][984]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CameraTest -0.799
+[2019.09.15-18.16.43:869][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.16.47:505][244]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.16.51:708][546]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.16.52:537][606]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.16.55:203][796]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.16.58:995][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.15-18.16.59:196][ 81]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.05:782][552]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.05:810][554]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.10:896][918]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.17.12:596][ 35]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.16:190][284]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.16:976][340]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.20:201][568]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.17.20:482][588]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.20:709][604]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.17.20:892][617]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.21:077][630]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.17.21:259][642]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.21:456][656]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.17.21:642][669]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.21:827][682]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.17.22:011][695]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.22:815][752]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.25:288][929]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.25:674][956]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.26:034][981]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.26:289][999]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.27:208][ 65]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.27:392][ 78]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Open
+[2019.09.15-18.17.31:012][335]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.35:528][656]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.35:933][684]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.36:390][716]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.36:839][748]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.37:248][777]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.39:652][946]LogBlueprintUserMessages: [BP_CameraTest_PlayerController_C_0] Input Close
+[2019.09.15-18.17.40:473][  4]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.17.43:080][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.17.43:083][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.15-18.17.43:102][189]LogSlate: Window 'CameraTest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.15-18.17.43:135][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.15-18.17.43:136][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.17.43:200][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.09.15-18.17.43:216][190]LogPlayLevel: Display: Destroying online subsystem :Context_132
+[2019.09.15-18.18.17:748][444]BlueprintLog: New page: Compile BP_CameraTest_PlayerController
+[2019.09.15-18.18.18:067][444]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2019.09.15-18.18.18:659][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CameraTest_PlayerController" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_PlayerController.uasset" SILENT=true
+[2019.09.15-18.18.18:816][472]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_PlayerController1A90C6964A713D9EA1E268A708AF0273.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_PlayerController.uasset'
+[2019.09.15-18.18.41:638][826]BlueprintLog: New page: Compile WB_CameraTest_CameraStabilization
+[2019.09.15-18.18.41:747][826]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2019.09.15-18.18.42:217][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_CameraTest_CameraStabilization" FILE="I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset" SILENT=true
+[2019.09.15-18.18.42:330][846]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/WB_CameraTest_CameraStabilizatioD27C8AE941B3A29712CA23A4A5EC8F3C.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset'
+[2019.09.15-18.19.20:166][947]LogSlate: Window 'Delete Variable' being destroyed
+[2019.09.15-18.19.27:819][398]BlueprintLog: New page: Compile WB_CameraTest_CameraStabilization
+[2019.09.15-18.19.27:912][398]LogBlueprint: Error: [Compiler BP_CameraTest_UIManager] In use pin  UIManager  no longer exists on node  Init Ui Camera Stabilization . Please refresh node or break links to remove pin.
+[2019.09.15-18.19.27:968][398]LogBlueprint: Warning: [Compiler BP_CameraTest_UIManager] [0407.23] Compile of BP_CameraTest_UIManager failed. 1 Fatal Issue(s) 0 Warning(s) [in 148 ms] (/Game/Blueprints/BP_CameraTest_UIManager.BP_CameraTest_UIManager)
+[2019.09.15-18.19.28:226][398]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2019.09.15-18.19.28:652][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_CameraTest_CameraStabilization" FILE="I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset" SILENT=true
+[2019.09.15-18.19.28:731][418]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/WB_CameraTest_CameraStabilizatioCABF20884FEC1BDAA8122EA8B3E6D195.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset'
+[2019.09.15-18.19.39:864][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CameraTest_GameManager" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_GameManager.uasset" SILENT=true
+[2019.09.15-18.19.39:914][ 82]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_GameManager3B11761B4BF1D669B58331AD0719C9EE.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_GameManager.uasset'
+[2019.09.15-18.20.05:751][619]BlueprintLog: New page: Compile BP_CameraTest_PlayerController
+[2019.09.15-18.20.06:015][619]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2019.09.15-18.20.06:473][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CameraTest_PlayerController" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_PlayerController.uasset" SILENT=true
+[2019.09.15-18.20.06:601][640]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_PlayerControllerB9C0ED164621948793202A83C388562F.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_PlayerController.uasset'
+[2019.09.15-18.20.27:281][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CameraTest_PlayerController" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_PlayerController.uasset" SILENT=true
+[2019.09.15-18.20.27:403][877]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_PlayerController7BB5C681419C7D81F4C2929B486C483D.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_PlayerController.uasset'
+[2019.09.15-18.21.33:741][846]BlueprintLog: New page: Compile WB_CameraTest_CameraStabilization
+[2019.09.15-18.21.33:830][846]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2019.09.15-18.21.34:308][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_CameraTest_CameraStabilization" FILE="I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset" SILENT=true
+[2019.09.15-18.21.34:386][869]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/WB_CameraTest_CameraStabilizatioD3A42DC944C88D9060201EABF3A825DB.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset'
+[2019.09.15-18.21.36:052][968]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.15-18.21.36:094][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.21.36:094][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.15-18.21.38:778][968]LogSlate: Window 'Message' being destroyed
+[2019.09.15-18.21.41:555][133]BlueprintLog: New page: Compile WB_CameraTest_CameraStabilization
+[2019.09.15-18.21.41:635][133]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2019.09.15-18.21.42:372][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_CameraTest_CameraStabilization" FILE="I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset" SILENT=true
+[2019.09.15-18.21.42:451][171]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/WB_CameraTest_CameraStabilizatioB7C745E94490DC92F18683B9E133881F.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset'
+[2019.09.15-18.21.53:595][832]BlueprintLog: New page: Compile BP_CameraTest_UIManager
+[2019.09.15-18.21.53:849][832]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2019.09.15-18.21.54:253][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CameraTest_UIManager" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_UIManager.uasset" SILENT=true
+[2019.09.15-18.21.54:364][849]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_UIManagerD0144D0E418C790514CEA3B42F1E0DDE.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/BP_CameraTest_UIManager.uasset'
+[2019.09.15-18.21.55:354][908]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.15-18.21.55:391][908]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.21.55:391][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.15-18.21.55:391][908]PIE: New page: PIE session: CameraTest (2019年9月16日 上午10:21:55)
+[2019.09.15-18.21.55:391][908]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CameraTest
+[2019.09.15-18.21.55:394][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002519s)
+[2019.09.15-18.21.55:394][908]LogAIModule: Creating AISystem for world CameraTest
+[2019.09.15-18.21.55:394][908]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2019.09.15-18.21.55:395][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CameraTest.CameraTest to /Game/Maps/UEDPIE_0_CameraTest.CameraTest (0.003255s)
+[2019.09.15-18.21.55:445][908]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.09.15-18.21.55:448][908]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2019.09.15-18.21.55:451][908]LogInit: FAudioDevice initialized.
+[2019.09.15-18.21.55:465][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.15-18.21.55:497][908]LogLoad: Game class is 'BP_CameraTest_GameMode_C'
+[2019.09.15-18.21.55:498][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CameraTest.CameraTest up for play (max tick rate 60) at 2019.09.16-02.21.55
+[2019.09.15-18.21.55:499][908]LogWorld: Bringing up level for play took: 0.001168
+[2019.09.15-18.21.55:511][908]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.09.15-18.21.55:511][908]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.09.15-18.21.55:525][908]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CameraTest 0.857
+[2019.09.15-18.21.55:525][908]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.22.02:506][325]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.22.05:012][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.15-18.22.08:111][661]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.22.12:449][921]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.22.15:532][106]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.22.21:117][441]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.22.27:243][805]LogBlueprintUserMessages: [BP_CameraTest_CameraManager_C_0] Hello
+[2019.09.15-18.22.29:228][924]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.22.29:230][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.15-18.22.29:250][924]LogSlate: Window 'CameraTest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.15-18.22.29:284][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.15-18.22.29:285][924]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.22.29:354][924]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2019.09.15-18.22.29:371][925]LogPlayLevel: Display: Destroying online subsystem :Context_133
+[2019.09.15-18.23.21:948][ 55]BlueprintLog: New page: Compile BP_CameraTest_CameraManager
+[2019.09.15-18.23.22:448][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2019.09.15-18.23.22:989][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraSystem/BP_CameraTest_CameraManager" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/CameraSystem/BP_CameraTest_CameraManager.uasset" SILENT=true
+[2019.09.15-18.23.23:189][ 78]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_CameraManager76D590B44901D0D3438D9A84CAEAD2D5.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/CameraSystem/BP_CameraTest_CameraManager.uasset'
+[2019.09.15-18.23.41:947][193]BlueprintLog: New page: Compile BP_CameraTest_CameraManager
+[2019.09.15-18.23.42:319][193]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2019.09.15-18.23.43:098][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraSystem/BP_CameraTest_CameraManager" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/CameraSystem/BP_CameraTest_CameraManager.uasset" SILENT=true
+[2019.09.15-18.23.43:285][230]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_CameraManager906091B5457922FACC02938EC02AA4F7.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/CameraSystem/BP_CameraTest_CameraManager.uasset'
+[2019.09.15-18.23.54:112][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CameraSystem/BP_CameraTest_CameraManager" FILE="I:/UE Project/UE4_Camera_Test/Content/Blueprints/CameraSystem/BP_CameraTest_CameraManager.uasset" SILENT=true
+[2019.09.15-18.23.54:297][874]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/BP_CameraTest_CameraManager9C1CCAE44DCC252FEC41F9BCDD0B2052.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/Blueprints/CameraSystem/BP_CameraTest_CameraManager.uasset'
+[2019.09.15-18.23.58:178][104]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.15-18.23.58:220][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.23.58:220][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.15-18.23.58:220][104]PIE: New page: PIE session: CameraTest (2019年9月16日 上午10:23:58)
+[2019.09.15-18.23.58:221][104]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CameraTest
+[2019.09.15-18.23.58:224][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003127s)
+[2019.09.15-18.23.58:224][104]LogAIModule: Creating AISystem for world CameraTest
+[2019.09.15-18.23.58:225][104]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2019.09.15-18.23.58:225][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CameraTest.CameraTest to /Game/Maps/UEDPIE_0_CameraTest.CameraTest (0.004170s)
+[2019.09.15-18.23.58:280][104]LogUObjectHash: Compacting FUObjectHashTables data took   5.98ms
+[2019.09.15-18.23.58:284][104]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2019.09.15-18.23.58:288][104]LogInit: FAudioDevice initialized.
+[2019.09.15-18.23.58:304][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.15-18.23.58:338][104]LogLoad: Game class is 'BP_CameraTest_GameMode_C'
+[2019.09.15-18.23.58:340][104]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CameraTest.CameraTest up for play (max tick rate 60) at 2019.09.16-02.23.58
+[2019.09.15-18.23.58:340][104]LogWorld: Bringing up level for play took: 0.000945
+[2019.09.15-18.23.58:353][104]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.09.15-18.23.58:354][104]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.09.15-18.23.58:370][104]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CameraTest -0.299
+[2019.09.15-18.23.58:370][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.24.15:473][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.15-18.24.35:273][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.24.35:275][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.15-18.24.35:294][313]LogSlate: Window 'CameraTest Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.15-18.24.35:332][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.15-18.24.35:332][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CameraTest.CameraTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest' with GeneratedClass '/Game/Maps/CameraTest.CameraTest_C' with ClassGeneratedBy '/Game/Maps/CameraTest.CameraTest:PersistentLevel.CameraTest'
+[2019.09.15-18.24.35:401][313]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.09.15-18.24.35:438][314]LogPlayLevel: Display: Destroying online subsystem :Context_134
+[2019.09.15-18.25.01:049][845]BlueprintLog: New page: Compile WB_CameraTest_CameraStabilization
+[2019.09.15-18.25.01:163][845]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2019.09.15-18.25.01:672][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_CameraTest_CameraStabilization" FILE="I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset" SILENT=true
+[2019.09.15-18.25.01:782][868]LogSavePackage: Moving 'I:/UE Project/UE4_Camera_Test/Saved/WB_CameraTest_CameraStabilizatioD88DAA0A47ED0E625552F590DF068A9E.tmp' to 'I:/UE Project/UE4_Camera_Test/Content/UI/WB_CameraTest_CameraStabilization.uasset'
+[2019.09.15-18.26.23:899][770]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
